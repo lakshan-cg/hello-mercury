@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "pipeline": "frontend_only",
+  "files": [
+    "frontend\\vercel.json",
+    "frontend\\.env.example",
+    "README.md"
+  ]
+}

@@ -1,0 +1,33 @@
+# Lumos local state
+/.lumos-local/
+
+# Dependencies & build artefacts
+node_modules/
+.next/
+.turbo/
+.cache/
+dist/
+build/
+coverage/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments / secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log

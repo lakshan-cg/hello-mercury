@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "root": "C:\\Users\\lakshan\\lumos-projects\\generated\\938e7c8a\\frontend",
+  "files": [
+    "app/layout.tsx",
+    "app/globals.css",
+    "app/page.tsx"
+  ]
+}

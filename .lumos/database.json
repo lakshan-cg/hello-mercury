@@ -1,0 +1,6 @@
+{
+  "needs_database": false,
+  "type": "none",
+  "credentials_provided": true,
+  "connection_status": "ready"
+}

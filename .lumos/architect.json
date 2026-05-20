@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "frontend": "Next.js 14 (App Router, TypeScript)",
+    "backend": "none",
+    "database": "none",
+    "auth": "none",
+    "styling": "Tailwind CSS + shadcn/ui",
+    "frontend_deploy": "Vercel",
+    "backend_deploy": "none"
+  },
+  "repo_structure": "monorepo",
+  "frontend_structure": {
+    "root": "frontend/",
+    "router": "app",
+    "state": "React hooks"
+  },
+  "backend_structure": {
+    "root": "none",
+    "framework": "none",
+    "entry": "none"
+  },
+  "database": {
+    "type": "none",
+    "needs_database": false,
+    "rationale": "Static single page displaying text, no data persistence required."
+  },
+  "auth": {
+    "type": "none",
+    "method": "none"
+  },
+  "integrations": [],
+  "environment_variables": [],
+  "needs_backend": false,
+  "architecture_diagram": "flowchart TD\n    User([\"Browser / Mobile\"]) -->|HTTPS| FE[\"Next.js 14\\n(Vercel)\"]\n    classDef user fill:#f8fafc,color:#334155,stroke:#cbd5e1\n    classDef fe fill:#1e293b,color:#f1f5f9,stroke:#475569\n    class User user\n    class FE fe",
+  "original_requirement": "Create a hello mercury website, no backend , just a single page. no external apis, llms, databse"
+}

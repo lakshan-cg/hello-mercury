@@ -1,0 +1,23 @@
+{
+  "lumos_version": 1,
+  "owner_email": null,
+  "share_branch_main": "main",
+  "share_branch_pattern": "collab/{email_slug}",
+  "manifest_written_at": "2026-05-20T10:58:09.954222+00:00",
+  "project_name": "Hello Mercury",
+  "requirement": "Create a hello mercury website, no backend , just a single page. no external apis, llms, databse",
+  "current_phase": "devops",
+  "completed_phases": [
+    "requirement",
+    "architect",
+    "uiux",
+    "planning",
+    "frontend",
+    "backend"
+  ],
+  "project_mode": "builder",
+  "plan_mode": true,
+  "planning_cycles": [],
+  "current_cycle": -1,
+  "created_at": "2026-05-20T10:51:42.617196+00:00"
+}

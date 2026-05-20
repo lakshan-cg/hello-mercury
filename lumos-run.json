@@ -1,0 +1,12 @@
+{
+  "frontend": {
+    "cmd": [
+      "C:\\Users\\lakshan\\AppData\\Local\\Programs\\lumos-desktop\\resources\\builder\\node\\npm.cmd",
+      "run",
+      "dev"
+    ],
+    "port": 6234,
+    "dir": "frontend"
+  },
+  "backend": null
+}

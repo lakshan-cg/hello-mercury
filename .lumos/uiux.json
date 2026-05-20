@@ -1,0 +1,39 @@
+{
+  "type": "artifact",
+  "data": {
+    "design_style": "Space-themed minimalist, deep space background with stars and planetary aesthetics",
+    "color_palette": {
+      "primary": "#cbd5e1",
+      "secondary": "#334155",
+      "background": "#0f172a",
+      "text": "#f8fafc"
+    },
+    "typography": {
+      "font_family": "Poppins, sans-serif"
+    },
+    "navigation": "none",
+    "pages": [
+      {
+        "name": "Home",
+        "route": "/",
+        "components": [
+          "StarryBackground",
+          "CenteredText"
+        ],
+        "description": "Full viewport page featuring a slate/neutral deep space background, star effects, and 'Hello Mercury' displayed centrally."
+      }
+    ],
+    "user_flows": [
+      {
+        "name": "View Home",
+        "steps": [
+          "User navigates to the root URL",
+          "User views the full-screen space-themed layout with centered 'Hello Mercury' text"
+        ]
+      }
+    ],
+    "component_library": "shadcn/ui",
+    "responsive": true
+  },
+  "original_requirement": "Create a hello mercury website, no backend , just a single page. no external apis, llms, databse"
+}

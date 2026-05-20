@@ -1,0 +1,44 @@
+{
+  "needs_backend": false,
+  "needs_database": false,
+  "db_type": "none",
+  "execution_plan": {
+    "frontend_tasks": [
+      {
+        "id": "FE-001",
+        "title": "Update layout and global styles",
+        "description": "Update Next.js metadata to 'Hello Mercury' and load the Poppins font in layout.tsx. Add custom animation keyframes for twinkling stars and dark space theme background variables to globals.css.",
+        "action": "modify",
+        "files": [
+          "frontend/app/layout.tsx",
+          "frontend/app/globals.css"
+        ],
+        "dependencies": []
+      },
+      {
+        "id": "FE-002",
+        "title": "Create Home Page",
+        "description": "Implement the full viewport Home page displaying 'Hello Mercury'. Include the starry deep space background, planetary aesthetics using CSS/Tailwind gradients, and centered text directly within this single file to keep the structure minimal.",
+        "action": "create",
+        "files": [
+          "frontend/app/page.tsx"
+        ],
+        "dependencies": [
+          "FE-001"
+        ]
+      }
+    ],
+    "backend_tasks": [],
+    "devops_tasks": []
+  },
+  "build_steps": {
+    "frontend": [
+      "npm install",
+      "npm run build"
+    ]
+  },
+  "environment_variables": {
+    "frontend": []
+  },
+  "original_requirement": "Create a hello mercury website, no backend , just a single page. no external apis, llms, databse"
+}

@@ -1,0 +1,1534 @@
+{
+  "files": {
+    "frontend/app/layout.tsx": {
+      "kind": "file",
+      "exports": [
+        "metadata",
+        "RootLayout"
+      ],
+      "imports": [
+        "next",
+        "next/font/google"
+      ],
+      "lines": 26
+    },
+    "frontend/app/page.tsx": {
+      "kind": "file",
+      "exports": [
+        "HomePage"
+      ],
+      "imports": [
+        "react"
+      ],
+      "lines": 84
+    },
+    "frontend/components/ui/accordion.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Accordion",
+        "AccordionItem",
+        "AccordionTrigger",
+        "AccordionContent"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-accordion",
+        "lucide-react",
+        "@/lib/utils"
+      ],
+      "lines": 53
+    },
+    "frontend/components/ui/alert-dialog.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "AlertDialog",
+        "AlertDialogPortal",
+        "AlertDialogOverlay",
+        "AlertDialogTrigger",
+        "AlertDialogContent",
+        "AlertDialogHeader",
+        "AlertDialogFooter",
+        "AlertDialogTitle",
+        "AlertDialogDescription",
+        "AlertDialogAction",
+        "AlertDialogCancel"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-alert-dialog",
+        "@/lib/utils",
+        "@/components/ui/button"
+      ],
+      "lines": 86
+    },
+    "frontend/components/ui/alert.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Alert",
+        "AlertTitle",
+        "AlertDescription"
+      ],
+      "imports": [
+        "react",
+        "class-variance-authority",
+        "@/lib/utils"
+      ],
+      "lines": 43
+    },
+    "frontend/components/ui/avatar.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Avatar",
+        "AvatarImage",
+        "AvatarFallback"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-avatar",
+        "@/lib/utils"
+      ],
+      "lines": 44
+    },
+    "frontend/components/ui/badge.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "BadgeProps",
+        "Badge",
+        "badgeVariants"
+      ],
+      "imports": [
+        "react",
+        "class-variance-authority",
+        "@/lib/utils"
+      ],
+      "lines": 31
+    },
+    "frontend/components/ui/button.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "ButtonProps",
+        "Button",
+        "buttonVariants"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "@/lib/utils"
+      ],
+      "lines": 53
+    },
+    "frontend/components/ui/calendar.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "CalendarProps",
+        "Calendar"
+      ],
+      "imports": [
+        "react",
+        "lucide-react",
+        "react-day-picker",
+        "@/lib/utils",
+        "@/components/ui/button"
+      ],
+      "lines": 51
+    },
+    "frontend/components/ui/card.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Card",
+        "CardHeader",
+        "CardFooter",
+        "CardTitle",
+        "CardDescription",
+        "CardContent"
+      ],
+      "imports": [
+        "react",
+        "@/lib/utils"
+      ],
+      "lines": 55
+    },
+    "frontend/components/ui/carousel.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "CarouselApi",
+        "Carousel",
+        "CarouselContent",
+        "CarouselItem",
+        "CarouselPrevious",
+        "CarouselNext"
+      ],
+      "imports": [
+        "react",
+        "embla-carousel-react",
+        "lucide-react",
+        "@/lib/utils",
+        "@/components/ui/button"
+      ],
+      "lines": 114
+    },
+    "frontend/components/ui/checkbox.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Checkbox"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-checkbox",
+        "lucide-react",
+        "@/lib/utils"
+      ],
+      "lines": 28
+    },
+    "frontend/components/ui/collapsible.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Collapsible",
+        "CollapsibleTrigger",
+        "CollapsibleContent"
+      ],
+      "imports": [
+        "@radix-ui/react-collapsible"
+      ],
+      "lines": 10
+    },
+    "frontend/components/ui/command.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Command",
+        "CommandDialog",
+        "CommandInput",
+        "CommandList",
+        "CommandEmpty",
+        "CommandGroup",
+        "CommandItem",
+        "CommandShortcut",
+        "CommandSeparator"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-dialog",
+        "cmdk",
+        "lucide-react",
+        "@/lib/utils",
+        "@/components/ui/dialog"
+      ],
+      "lines": 104
+    },
+    "frontend/components/ui/dialog.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Dialog",
+        "DialogPortal",
+        "DialogOverlay",
+        "DialogClose",
+        "DialogTrigger",
+        "DialogContent",
+        "DialogHeader",
+        "DialogFooter",
+        "DialogTitle",
+        "DialogDescription"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-dialog",
+        "lucide-react",
+        "@/lib/utils"
+      ],
+      "lines": 90
+    },
+    "frontend/components/ui/drawer.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Drawer",
+        "DrawerPortal",
+        "DrawerOverlay",
+        "DrawerTrigger",
+        "DrawerClose",
+        "DrawerContent",
+        "DrawerHeader",
+        "DrawerFooter",
+        "DrawerTitle",
+        "DrawerDescription"
+      ],
+      "imports": [
+        "react",
+        "vaul",
+        "@/lib/utils"
+      ],
+      "lines": 69
+    },
+    "frontend/components/ui/dropdown-menu.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "DropdownMenu",
+        "DropdownMenuTrigger",
+        "DropdownMenuContent",
+        "DropdownMenuItem",
+        "DropdownMenuCheckboxItem",
+        "DropdownMenuRadioItem",
+        "DropdownMenuLabel",
+        "DropdownMenuSeparator",
+        "DropdownMenuShortcut",
+        "DropdownMenuGroup",
+        "DropdownMenuPortal",
+        "DropdownMenuSub",
+        "DropdownMenuSubContent",
+        "DropdownMenuSubTrigger",
+        "DropdownMenuRadioGroup"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-dropdown-menu",
+        "lucide-react",
+        "@/lib/utils"
+      ],
+      "lines": 144
+    },
+    "frontend/components/ui/form.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "useFormField",
+        "Form",
+        "FormItem",
+        "FormLabel",
+        "FormControl",
+        "FormDescription",
+        "FormMessage",
+        "FormField"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-label",
+        "@radix-ui/react-slot",
+        "react-hook-form",
+        "@/lib/utils",
+        "@/components/ui/label"
+      ],
+      "lines": 106
+    },
+    "frontend/components/ui/hover-card.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "HoverCard",
+        "HoverCardTrigger",
+        "HoverCardContent"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-hover-card",
+        "@/lib/utils"
+      ],
+      "lines": 28
+    },
+    "frontend/components/ui/input-otp.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "InputOTP",
+        "InputOTPGroup",
+        "InputOTPSlot",
+        "InputOTPSeparator"
+      ],
+      "imports": [
+        "react",
+        "input-otp",
+        "lucide-react",
+        "@/lib/utils"
+      ],
+      "lines": 62
+    },
+    "frontend/components/ui/input.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "InputProps",
+        "Input"
+      ],
+      "imports": [
+        "react",
+        "@/lib/utils"
+      ],
+      "lines": 24
+    },
+    "frontend/components/ui/label.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Label"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-label",
+        "class-variance-authority",
+        "@/lib/utils"
+      ],
+      "lines": 26
+    },
+    "frontend/components/ui/navigation-menu.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "navigationMenuTriggerStyle",
+        "NavigationMenu",
+        "NavigationMenuList",
+        "NavigationMenuItem",
+        "NavigationMenuContent",
+        "NavigationMenuTrigger",
+        "NavigationMenuLink",
+        "NavigationMenuIndicator",
+        "NavigationMenuViewport"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-navigation-menu",
+        "class-variance-authority",
+        "lucide-react",
+        "@/lib/utils"
+      ],
+      "lines": 92
+    },
+    "frontend/components/ui/pagination.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Pagination",
+        "PaginationContent",
+        "PaginationEllipsis",
+        "PaginationItem",
+        "PaginationLink",
+        "PaginationNext",
+        "PaginationPrevious"
+      ],
+      "imports": [
+        "react",
+        "lucide-react",
+        "@/lib/utils",
+        "@/components/ui/button"
+      ],
+      "lines": 59
+    },
+    "frontend/components/ui/popover.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Popover",
+        "PopoverTrigger",
+        "PopoverContent"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-popover",
+        "@/lib/utils"
+      ],
+      "lines": 30
+    },
+    "frontend/components/ui/progress.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Progress"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-progress",
+        "@/lib/utils"
+      ],
+      "lines": 25
+    },
+    "frontend/components/ui/radio-group.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "RadioGroup",
+        "RadioGroupItem"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-radio-group",
+        "lucide-react",
+        "@/lib/utils"
+      ],
+      "lines": 36
+    },
+    "frontend/components/ui/resizable.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "ResizablePanelGroup",
+        "ResizablePanel",
+        "ResizableHandle"
+      ],
+      "imports": [
+        "lucide-react",
+        "react-resizable-panels",
+        "@/lib/utils"
+      ],
+      "lines": 40
+    },
+    "frontend/components/ui/scroll-area.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "ScrollArea",
+        "ScrollBar"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-scroll-area",
+        "@/lib/utils"
+      ],
+      "lines": 42
+    },
+    "frontend/components/ui/select.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Select",
+        "SelectGroup",
+        "SelectValue",
+        "SelectTrigger",
+        "SelectContent",
+        "SelectLabel",
+        "SelectItem",
+        "SelectSeparator",
+        "SelectScrollUpButton",
+        "SelectScrollDownButton"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-select",
+        "lucide-react",
+        "@/lib/utils"
+      ],
+      "lines": 126
+    },
+    "frontend/components/ui/separator.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Separator"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-separator",
+        "@/lib/utils"
+      ],
+      "lines": 26
+    },
+    "frontend/components/ui/sheet.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Sheet",
+        "SheetPortal",
+        "SheetOverlay",
+        "SheetTrigger",
+        "SheetClose",
+        "SheetContent",
+        "SheetHeader",
+        "SheetFooter",
+        "SheetTitle",
+        "SheetDescription"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-dialog",
+        "class-variance-authority",
+        "lucide-react",
+        "@/lib/utils"
+      ],
+      "lines": 88
+    },
+    "frontend/components/ui/skeleton.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Skeleton"
+      ],
+      "imports": [
+        "@/lib/utils"
+      ],
+      "lines": 10
+    },
+    "frontend/components/ui/slider.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Slider"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-slider",
+        "@/lib/utils"
+      ],
+      "lines": 25
+    },
+    "frontend/components/ui/sonner.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Toaster"
+      ],
+      "imports": [
+        "next-themes",
+        "sonner"
+      ],
+      "lines": 28
+    },
+    "frontend/components/ui/switch.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Switch"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-switch",
+        "@/lib/utils"
+      ],
+      "lines": 29
+    },
+    "frontend/components/ui/table.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Table",
+        "TableHeader",
+        "TableBody",
+        "TableFooter",
+        "TableHead",
+        "TableRow",
+        "TableCell",
+        "TableCaption"
+      ],
+      "imports": [
+        "react",
+        "@/lib/utils"
+      ],
+      "lines": 63
+    },
+    "frontend/components/ui/tabs.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Tabs",
+        "TabsList",
+        "TabsTrigger",
+        "TabsContent"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-tabs",
+        "@/lib/utils"
+      ],
+      "lines": 55
+    },
+    "frontend/components/ui/textarea.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "TextareaProps",
+        "Textarea"
+      ],
+      "imports": [
+        "react",
+        "@/lib/utils"
+      ],
+      "lines": 23
+    },
+    "frontend/components/ui/toast.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "ToastProps",
+        "ToastActionElement",
+        "ToastProvider",
+        "ToastViewport",
+        "Toast",
+        "ToastTitle",
+        "ToastDescription",
+        "ToastClose",
+        "ToastAction"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-toast",
+        "class-variance-authority",
+        "lucide-react",
+        "@/lib/utils"
+      ],
+      "lines": 94
+    },
+    "frontend/components/ui/toaster.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Toaster"
+      ],
+      "imports": [
+        "@/hooks/use-toast",
+        "@/components/ui/toast"
+      ],
+      "lines": 26
+    },
+    "frontend/components/ui/toggle-group.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "ToggleGroup",
+        "ToggleGroupItem"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-toggle-group",
+        "class-variance-authority",
+        "@/lib/utils",
+        "@/components/ui/toggle"
+      ],
+      "lines": 42
+    },
+    "frontend/components/ui/toggle.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Toggle",
+        "toggleVariants"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-toggle",
+        "class-variance-authority",
+        "@/lib/utils"
+      ],
+      "lines": 35
+    },
+    "frontend/components/ui/tooltip.tsx": {
+      "kind": "ui_component",
+      "exports": [
+        "Tooltip",
+        "TooltipTrigger",
+        "TooltipContent",
+        "TooltipProvider"
+      ],
+      "imports": [
+        "react",
+        "@radix-ui/react-tooltip",
+        "@/lib/utils"
+      ],
+      "lines": 28
+    },
+    "frontend/hooks/use-mobile.ts": {
+      "kind": "hook",
+      "exports": [
+        "useIsMobile"
+      ],
+      "imports": [
+        "react"
+      ],
+      "lines": 20
+    },
+    "frontend/hooks/use-toast.ts": {
+      "kind": "hook",
+      "exports": [
+        "reducer",
+        "useToast",
+        "toast"
+      ],
+      "imports": [
+        "react"
+      ],
+      "lines": 100
+    },
+    "frontend/lib/utils.ts": {
+      "kind": "util",
+      "exports": [
+        "cn"
+      ],
+      "imports": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "lines": 7
+    },
+    "frontend/tailwind.config.ts": {
+      "kind": "file",
+      "exports": [],
+      "imports": [
+        "tailwindcss"
+      ],
+      "lines": 91
+    }
+  },
+  "symbols": {
+    "metadata": {
+      "file": "frontend/app/layout.tsx",
+      "kind": "file"
+    },
+    "RootLayout": {
+      "file": "frontend/app/layout.tsx",
+      "kind": "file"
+    },
+    "HomePage": {
+      "file": "frontend/app/page.tsx",
+      "kind": "file"
+    },
+    "Accordion": {
+      "file": "frontend/components/ui/accordion.tsx",
+      "kind": "ui_component"
+    },
+    "AccordionItem": {
+      "file": "frontend/components/ui/accordion.tsx",
+      "kind": "ui_component"
+    },
+    "AccordionTrigger": {
+      "file": "frontend/components/ui/accordion.tsx",
+      "kind": "ui_component"
+    },
+    "AccordionContent": {
+      "file": "frontend/components/ui/accordion.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDialog": {
+      "file": "frontend/components/ui/alert-dialog.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDialogPortal": {
+      "file": "frontend/components/ui/alert-dialog.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDialogOverlay": {
+      "file": "frontend/components/ui/alert-dialog.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDialogTrigger": {
+      "file": "frontend/components/ui/alert-dialog.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDialogContent": {
+      "file": "frontend/components/ui/alert-dialog.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDialogHeader": {
+      "file": "frontend/components/ui/alert-dialog.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDialogFooter": {
+      "file": "frontend/components/ui/alert-dialog.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDialogTitle": {
+      "file": "frontend/components/ui/alert-dialog.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDialogDescription": {
+      "file": "frontend/components/ui/alert-dialog.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDialogAction": {
+      "file": "frontend/components/ui/alert-dialog.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDialogCancel": {
+      "file": "frontend/components/ui/alert-dialog.tsx",
+      "kind": "ui_component"
+    },
+    "Alert": {
+      "file": "frontend/components/ui/alert.tsx",
+      "kind": "ui_component"
+    },
+    "AlertTitle": {
+      "file": "frontend/components/ui/alert.tsx",
+      "kind": "ui_component"
+    },
+    "AlertDescription": {
+      "file": "frontend/components/ui/alert.tsx",
+      "kind": "ui_component"
+    },
+    "Avatar": {
+      "file": "frontend/components/ui/avatar.tsx",
+      "kind": "ui_component"
+    },
+    "AvatarImage": {
+      "file": "frontend/components/ui/avatar.tsx",
+      "kind": "ui_component"
+    },
+    "AvatarFallback": {
+      "file": "frontend/components/ui/avatar.tsx",
+      "kind": "ui_component"
+    },
+    "BadgeProps": {
+      "file": "frontend/components/ui/badge.tsx",
+      "kind": "ui_component"
+    },
+    "Badge": {
+      "file": "frontend/components/ui/badge.tsx",
+      "kind": "ui_component"
+    },
+    "badgeVariants": {
+      "file": "frontend/components/ui/badge.tsx",
+      "kind": "ui_component"
+    },
+    "ButtonProps": {
+      "file": "frontend/components/ui/button.tsx",
+      "kind": "ui_component"
+    },
+    "Button": {
+      "file": "frontend/components/ui/button.tsx",
+      "kind": "ui_component"
+    },
+    "buttonVariants": {
+      "file": "frontend/components/ui/button.tsx",
+      "kind": "ui_component"
+    },
+    "CalendarProps": {
+      "file": "frontend/components/ui/calendar.tsx",
+      "kind": "ui_component"
+    },
+    "Calendar": {
+      "file": "frontend/components/ui/calendar.tsx",
+      "kind": "ui_component"
+    },
+    "Card": {
+      "file": "frontend/components/ui/card.tsx",
+      "kind": "ui_component"
+    },
+    "CardHeader": {
+      "file": "frontend/components/ui/card.tsx",
+      "kind": "ui_component"
+    },
+    "CardFooter": {
+      "file": "frontend/components/ui/card.tsx",
+      "kind": "ui_component"
+    },
+    "CardTitle": {
+      "file": "frontend/components/ui/card.tsx",
+      "kind": "ui_component"
+    },
+    "CardDescription": {
+      "file": "frontend/components/ui/card.tsx",
+      "kind": "ui_component"
+    },
+    "CardContent": {
+      "file": "frontend/components/ui/card.tsx",
+      "kind": "ui_component"
+    },
+    "CarouselApi": {
+      "file": "frontend/components/ui/carousel.tsx",
+      "kind": "ui_component"
+    },
+    "Carousel": {
+      "file": "frontend/components/ui/carousel.tsx",
+      "kind": "ui_component"
+    },
+    "CarouselContent": {
+      "file": "frontend/components/ui/carousel.tsx",
+      "kind": "ui_component"
+    },
+    "CarouselItem": {
+      "file": "frontend/components/ui/carousel.tsx",
+      "kind": "ui_component"
+    },
+    "CarouselPrevious": {
+      "file": "frontend/components/ui/carousel.tsx",
+      "kind": "ui_component"
+    },
+    "CarouselNext": {
+      "file": "frontend/components/ui/carousel.tsx",
+      "kind": "ui_component"
+    },
+    "Checkbox": {
+      "file": "frontend/components/ui/checkbox.tsx",
+      "kind": "ui_component"
+    },
+    "Collapsible": {
+      "file": "frontend/components/ui/collapsible.tsx",
+      "kind": "ui_component"
+    },
+    "CollapsibleTrigger": {
+      "file": "frontend/components/ui/collapsible.tsx",
+      "kind": "ui_component"
+    },
+    "CollapsibleContent": {
+      "file": "frontend/components/ui/collapsible.tsx",
+      "kind": "ui_component"
+    },
+    "Command": {
+      "file": "frontend/components/ui/command.tsx",
+      "kind": "ui_component"
+    },
+    "CommandDialog": {
+      "file": "frontend/components/ui/command.tsx",
+      "kind": "ui_component"
+    },
+    "CommandInput": {
+      "file": "frontend/components/ui/command.tsx",
+      "kind": "ui_component"
+    },
+    "CommandList": {
+      "file": "frontend/components/ui/command.tsx",
+      "kind": "ui_component"
+    },
+    "CommandEmpty": {
+      "file": "frontend/components/ui/command.tsx",
+      "kind": "ui_component"
+    },
+    "CommandGroup": {
+      "file": "frontend/components/ui/command.tsx",
+      "kind": "ui_component"
+    },
+    "CommandItem": {
+      "file": "frontend/components/ui/command.tsx",
+      "kind": "ui_component"
+    },
+    "CommandShortcut": {
+      "file": "frontend/components/ui/command.tsx",
+      "kind": "ui_component"
+    },
+    "CommandSeparator": {
+      "file": "frontend/components/ui/command.tsx",
+      "kind": "ui_component"
+    },
+    "Dialog": {
+      "file": "frontend/components/ui/dialog.tsx",
+      "kind": "ui_component"
+    },
+    "DialogPortal": {
+      "file": "frontend/components/ui/dialog.tsx",
+      "kind": "ui_component"
+    },
+    "DialogOverlay": {
+      "file": "frontend/components/ui/dialog.tsx",
+      "kind": "ui_component"
+    },
+    "DialogClose": {
+      "file": "frontend/components/ui/dialog.tsx",
+      "kind": "ui_component"
+    },
+    "DialogTrigger": {
+      "file": "frontend/components/ui/dialog.tsx",
+      "kind": "ui_component"
+    },
+    "DialogContent": {
+      "file": "frontend/components/ui/dialog.tsx",
+      "kind": "ui_component"
+    },
+    "DialogHeader": {
+      "file": "frontend/components/ui/dialog.tsx",
+      "kind": "ui_component"
+    },
+    "DialogFooter": {
+      "file": "frontend/components/ui/dialog.tsx",
+      "kind": "ui_component"
+    },
+    "DialogTitle": {
+      "file": "frontend/components/ui/dialog.tsx",
+      "kind": "ui_component"
+    },
+    "DialogDescription": {
+      "file": "frontend/components/ui/dialog.tsx",
+      "kind": "ui_component"
+    },
+    "Drawer": {
+      "file": "frontend/components/ui/drawer.tsx",
+      "kind": "ui_component"
+    },
+    "DrawerPortal": {
+      "file": "frontend/components/ui/drawer.tsx",
+      "kind": "ui_component"
+    },
+    "DrawerOverlay": {
+      "file": "frontend/components/ui/drawer.tsx",
+      "kind": "ui_component"
+    },
+    "DrawerTrigger": {
+      "file": "frontend/components/ui/drawer.tsx",
+      "kind": "ui_component"
+    },
+    "DrawerClose": {
+      "file": "frontend/components/ui/drawer.tsx",
+      "kind": "ui_component"
+    },
+    "DrawerContent": {
+      "file": "frontend/components/ui/drawer.tsx",
+      "kind": "ui_component"
+    },
+    "DrawerHeader": {
+      "file": "frontend/components/ui/drawer.tsx",
+      "kind": "ui_component"
+    },
+    "DrawerFooter": {
+      "file": "frontend/components/ui/drawer.tsx",
+      "kind": "ui_component"
+    },
+    "DrawerTitle": {
+      "file": "frontend/components/ui/drawer.tsx",
+      "kind": "ui_component"
+    },
+    "DrawerDescription": {
+      "file": "frontend/components/ui/drawer.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenu": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuTrigger": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuContent": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuItem": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuCheckboxItem": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuRadioItem": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuLabel": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuSeparator": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuShortcut": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuGroup": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuPortal": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuSub": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuSubContent": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuSubTrigger": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "DropdownMenuRadioGroup": {
+      "file": "frontend/components/ui/dropdown-menu.tsx",
+      "kind": "ui_component"
+    },
+    "useFormField": {
+      "file": "frontend/components/ui/form.tsx",
+      "kind": "ui_component"
+    },
+    "Form": {
+      "file": "frontend/components/ui/form.tsx",
+      "kind": "ui_component"
+    },
+    "FormItem": {
+      "file": "frontend/components/ui/form.tsx",
+      "kind": "ui_component"
+    },
+    "FormLabel": {
+      "file": "frontend/components/ui/form.tsx",
+      "kind": "ui_component"
+    },
+    "FormControl": {
+      "file": "frontend/components/ui/form.tsx",
+      "kind": "ui_component"
+    },
+    "FormDescription": {
+      "file": "frontend/components/ui/form.tsx",
+      "kind": "ui_component"
+    },
+    "FormMessage": {
+      "file": "frontend/components/ui/form.tsx",
+      "kind": "ui_component"
+    },
+    "FormField": {
+      "file": "frontend/components/ui/form.tsx",
+      "kind": "ui_component"
+    },
+    "HoverCard": {
+      "file": "frontend/components/ui/hover-card.tsx",
+      "kind": "ui_component"
+    },
+    "HoverCardTrigger": {
+      "file": "frontend/components/ui/hover-card.tsx",
+      "kind": "ui_component"
+    },
+    "HoverCardContent": {
+      "file": "frontend/components/ui/hover-card.tsx",
+      "kind": "ui_component"
+    },
+    "InputOTP": {
+      "file": "frontend/components/ui/input-otp.tsx",
+      "kind": "ui_component"
+    },
+    "InputOTPGroup": {
+      "file": "frontend/components/ui/input-otp.tsx",
+      "kind": "ui_component"
+    },
+    "InputOTPSlot": {
+      "file": "frontend/components/ui/input-otp.tsx",
+      "kind": "ui_component"
+    },
+    "InputOTPSeparator": {
+      "file": "frontend/components/ui/input-otp.tsx",
+      "kind": "ui_component"
+    },
+    "InputProps": {
+      "file": "frontend/components/ui/input.tsx",
+      "kind": "ui_component"
+    },
+    "Input": {
+      "file": "frontend/components/ui/input.tsx",
+      "kind": "ui_component"
+    },
+    "Label": {
+      "file": "frontend/components/ui/label.tsx",
+      "kind": "ui_component"
+    },
+    "navigationMenuTriggerStyle": {
+      "file": "frontend/components/ui/navigation-menu.tsx",
+      "kind": "ui_component"
+    },
+    "NavigationMenu": {
+      "file": "frontend/components/ui/navigation-menu.tsx",
+      "kind": "ui_component"
+    },
+    "NavigationMenuList": {
+      "file": "frontend/components/ui/navigation-menu.tsx",
+      "kind": "ui_component"
+    },
+    "NavigationMenuItem": {
+      "file": "frontend/components/ui/navigation-menu.tsx",
+      "kind": "ui_component"
+    },
+    "NavigationMenuContent": {
+      "file": "frontend/components/ui/navigation-menu.tsx",
+      "kind": "ui_component"
+    },
+    "NavigationMenuTrigger": {
+      "file": "frontend/components/ui/navigation-menu.tsx",
+      "kind": "ui_component"
+    },
+    "NavigationMenuLink": {
+      "file": "frontend/components/ui/navigation-menu.tsx",
+      "kind": "ui_component"
+    },
+    "NavigationMenuIndicator": {
+      "file": "frontend/components/ui/navigation-menu.tsx",
+      "kind": "ui_component"
+    },
+    "NavigationMenuViewport": {
+      "file": "frontend/components/ui/navigation-menu.tsx",
+      "kind": "ui_component"
+    },
+    "Pagination": {
+      "file": "frontend/components/ui/pagination.tsx",
+      "kind": "ui_component"
+    },
+    "PaginationContent": {
+      "file": "frontend/components/ui/pagination.tsx",
+      "kind": "ui_component"
+    },
+    "PaginationEllipsis": {
+      "file": "frontend/components/ui/pagination.tsx",
+      "kind": "ui_component"
+    },
+    "PaginationItem": {
+      "file": "frontend/components/ui/pagination.tsx",
+      "kind": "ui_component"
+    },
+    "PaginationLink": {
+      "file": "frontend/components/ui/pagination.tsx",
+      "kind": "ui_component"
+    },
+    "PaginationNext": {
+      "file": "frontend/components/ui/pagination.tsx",
+      "kind": "ui_component"
+    },
+    "PaginationPrevious": {
+      "file": "frontend/components/ui/pagination.tsx",
+      "kind": "ui_component"
+    },
+    "Popover": {
+      "file": "frontend/components/ui/popover.tsx",
+      "kind": "ui_component"
+    },
+    "PopoverTrigger": {
+      "file": "frontend/components/ui/popover.tsx",
+      "kind": "ui_component"
+    },
+    "PopoverContent": {
+      "file": "frontend/components/ui/popover.tsx",
+      "kind": "ui_component"
+    },
+    "Progress": {
+      "file": "frontend/components/ui/progress.tsx",
+      "kind": "ui_component"
+    },
+    "RadioGroup": {
+      "file": "frontend/components/ui/radio-group.tsx",
+      "kind": "ui_component"
+    },
+    "RadioGroupItem": {
+      "file": "frontend/components/ui/radio-group.tsx",
+      "kind": "ui_component"
+    },
+    "ResizablePanelGroup": {
+      "file": "frontend/components/ui/resizable.tsx",
+      "kind": "ui_component"
+    },
+    "ResizablePanel": {
+      "file": "frontend/components/ui/resizable.tsx",
+      "kind": "ui_component"
+    },
+    "ResizableHandle": {
+      "file": "frontend/components/ui/resizable.tsx",
+      "kind": "ui_component"
+    },
+    "ScrollArea": {
+      "file": "frontend/components/ui/scroll-area.tsx",
+      "kind": "ui_component"
+    },
+    "ScrollBar": {
+      "file": "frontend/components/ui/scroll-area.tsx",
+      "kind": "ui_component"
+    },
+    "Select": {
+      "file": "frontend/components/ui/select.tsx",
+      "kind": "ui_component"
+    },
+    "SelectGroup": {
+      "file": "frontend/components/ui/select.tsx",
+      "kind": "ui_component"
+    },
+    "SelectValue": {
+      "file": "frontend/components/ui/select.tsx",
+      "kind": "ui_component"
+    },
+    "SelectTrigger": {
+      "file": "frontend/components/ui/select.tsx",
+      "kind": "ui_component"
+    },
+    "SelectContent": {
+      "file": "frontend/components/ui/select.tsx",
+      "kind": "ui_component"
+    },
+    "SelectLabel": {
+      "file": "frontend/components/ui/select.tsx",
+      "kind": "ui_component"
+    },
+    "SelectItem": {
+      "file": "frontend/components/ui/select.tsx",
+      "kind": "ui_component"
+    },
+    "SelectSeparator": {
+      "file": "frontend/components/ui/select.tsx",
+      "kind": "ui_component"
+    },
+    "SelectScrollUpButton": {
+      "file": "frontend/components/ui/select.tsx",
+      "kind": "ui_component"
+    },
+    "SelectScrollDownButton": {
+      "file": "frontend/components/ui/select.tsx",
+      "kind": "ui_component"
+    },
+    "Separator": {
+      "file": "frontend/components/ui/separator.tsx",
+      "kind": "ui_component"
+    },
+    "Sheet": {
+      "file": "frontend/components/ui/sheet.tsx",
+      "kind": "ui_component"
+    },
+    "SheetPortal": {
+      "file": "frontend/components/ui/sheet.tsx",
+      "kind": "ui_component"
+    },
+    "SheetOverlay": {
+      "file": "frontend/components/ui/sheet.tsx",
+      "kind": "ui_component"
+    },
+    "SheetTrigger": {
+      "file": "frontend/components/ui/sheet.tsx",
+      "kind": "ui_component"
+    },
+    "SheetClose": {
+      "file": "frontend/components/ui/sheet.tsx",
+      "kind": "ui_component"
+    },
+    "SheetContent": {
+      "file": "frontend/components/ui/sheet.tsx",
+      "kind": "ui_component"
+    },
+    "SheetHeader": {
+      "file": "frontend/components/ui/sheet.tsx",
+      "kind": "ui_component"
+    },
+    "SheetFooter": {
+      "file": "frontend/components/ui/sheet.tsx",
+      "kind": "ui_component"
+    },
+    "SheetTitle": {
+      "file": "frontend/components/ui/sheet.tsx",
+      "kind": "ui_component"
+    },
+    "SheetDescription": {
+      "file": "frontend/components/ui/sheet.tsx",
+      "kind": "ui_component"
+    },
+    "Skeleton": {
+      "file": "frontend/components/ui/skeleton.tsx",
+      "kind": "ui_component"
+    },
+    "Slider": {
+      "file": "frontend/components/ui/slider.tsx",
+      "kind": "ui_component"
+    },
+    "Toaster": {
+      "file": "frontend/components/ui/sonner.tsx",
+      "kind": "ui_component"
+    },
+    "Switch": {
+      "file": "frontend/components/ui/switch.tsx",
+      "kind": "ui_component"
+    },
+    "Table": {
+      "file": "frontend/components/ui/table.tsx",
+      "kind": "ui_component"
+    },
+    "TableHeader": {
+      "file": "frontend/components/ui/table.tsx",
+      "kind": "ui_component"
+    },
+    "TableBody": {
+      "file": "frontend/components/ui/table.tsx",
+      "kind": "ui_component"
+    },
+    "TableFooter": {
+      "file": "frontend/components/ui/table.tsx",
+      "kind": "ui_component"
+    },
+    "TableHead": {
+      "file": "frontend/components/ui/table.tsx",
+      "kind": "ui_component"
+    },
+    "TableRow": {
+      "file": "frontend/components/ui/table.tsx",
+      "kind": "ui_component"
+    },
+    "TableCell": {
+      "file": "frontend/components/ui/table.tsx",
+      "kind": "ui_component"
+    },
+    "TableCaption": {
+      "file": "frontend/components/ui/table.tsx",
+      "kind": "ui_component"
+    },
+    "Tabs": {
+      "file": "frontend/components/ui/tabs.tsx",
+      "kind": "ui_component"
+    },
+    "TabsList": {
+      "file": "frontend/components/ui/tabs.tsx",
+      "kind": "ui_component"
+    },
+    "TabsTrigger": {
+      "file": "frontend/components/ui/tabs.tsx",
+      "kind": "ui_component"
+    },
+    "TabsContent": {
+      "file": "frontend/components/ui/tabs.tsx",
+      "kind": "ui_component"
+    },
+    "TextareaProps": {
+      "file": "frontend/components/ui/textarea.tsx",
+      "kind": "ui_component"
+    },
+    "Textarea": {
+      "file": "frontend/components/ui/textarea.tsx",
+      "kind": "ui_component"
+    },
+    "ToastProps": {
+      "file": "frontend/components/ui/toast.tsx",
+      "kind": "ui_component"
+    },
+    "ToastActionElement": {
+      "file": "frontend/components/ui/toast.tsx",
+      "kind": "ui_component"
+    },
+    "ToastProvider": {
+      "file": "frontend/components/ui/toast.tsx",
+      "kind": "ui_component"
+    },
+    "ToastViewport": {
+      "file": "frontend/components/ui/toast.tsx",
+      "kind": "ui_component"
+    },
+    "Toast": {
+      "file": "frontend/components/ui/toast.tsx",
+      "kind": "ui_component"
+    },
+    "ToastTitle": {
+      "file": "frontend/components/ui/toast.tsx",
+      "kind": "ui_component"
+    },
+    "ToastDescription": {
+      "file": "frontend/components/ui/toast.tsx",
+      "kind": "ui_component"
+    },
+    "ToastClose": {
+      "file": "frontend/components/ui/toast.tsx",
+      "kind": "ui_component"
+    },
+    "ToastAction": {
+      "file": "frontend/components/ui/toast.tsx",
+      "kind": "ui_component"
+    },
+    "ToggleGroup": {
+      "file": "frontend/components/ui/toggle-group.tsx",
+      "kind": "ui_component"
+    },
+    "ToggleGroupItem": {
+      "file": "frontend/components/ui/toggle-group.tsx",
+      "kind": "ui_component"
+    },
+    "Toggle": {
+      "file": "frontend/components/ui/toggle.tsx",
+      "kind": "ui_component"
+    },
+    "toggleVariants": {
+      "file": "frontend/components/ui/toggle.tsx",
+      "kind": "ui_component"
+    },
+    "Tooltip": {
+      "file": "frontend/components/ui/tooltip.tsx",
+      "kind": "ui_component"
+    },
+    "TooltipTrigger": {
+      "file": "frontend/components/ui/tooltip.tsx",
+      "kind": "ui_component"
+    },
+    "TooltipContent": {
+      "file": "frontend/components/ui/tooltip.tsx",
+      "kind": "ui_component"
+    },
+    "TooltipProvider": {
+      "file": "frontend/components/ui/tooltip.tsx",
+      "kind": "ui_component"
+    },
+    "useIsMobile": {
+      "file": "frontend/hooks/use-mobile.ts",
+      "kind": "hook"
+    },
+    "reducer": {
+      "file": "frontend/hooks/use-toast.ts",
+      "kind": "hook"
+    },
+    "useToast": {
+      "file": "frontend/hooks/use-toast.ts",
+      "kind": "hook"
+    },
+    "toast": {
+      "file": "frontend/hooks/use-toast.ts",
+      "kind": "hook"
+    },
+    "cn": {
+      "file": "frontend/lib/utils.ts",
+      "kind": "util"
+    }
+  }
+}
