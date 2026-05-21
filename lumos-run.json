@@ -1,7 +1,7 @@
 {
   "frontend": {
     "cmd": [
-      "C:\\Users\\lakshan\\AppData\\Local\\Programs\\lumos-desktop\\resources\\builder\\node\\npm.cmd",
+      "npm.cmd",
       "run",
       "dev"
     ],
