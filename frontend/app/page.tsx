@@ -63,7 +63,7 @@ export default function HomePage() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] rounded-full bg-[radial-gradient(circle_at_50%_50%,_#334155_0%,_transparent_70%)] opacity-40 blur-3xl z-0 pointer-events-none" />
       
       {/* Faint distant planet body */}
-      <div className="absolute top-[15%] right-[10%] sm:top-[20%] sm:right-[20%] w-32 h-32 sm:w-56 sm:h-56 rounded-full bg-[radial-gradient(circle_at_30%_30%,_#cbd5e1_0%,_#334155_50%,_#0f172a_100%)] shadow-[0_0_50px_rgba(51,65,85,0.5)] opacity-90 z-0 pointer-events-none" />
+      <div className="absolute top-[15%] right-[10%] sm:top-[20%] sm:right-[20%] w-32 h-32 sm:w-56 sm:h-56 rounded-full bg-[radial-gradient(circle_at_30%_30%,_#cbd5e1_0%,_#334155_50%,_#0f172a_100%)] shadow-[0_0_50px_rgba(51,65,85,0.5)] opacity-90 z-0 pointer-events-none animate-[spin_20s_linear_infinite]" />
 
       {/* Text Content */}
       <div 
