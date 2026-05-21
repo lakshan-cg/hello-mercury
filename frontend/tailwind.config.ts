@@ -77,15 +77,28 @@ const config: Config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        "star-movement-horizontal": {
+        "star-move": {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-50%)" },
+        },
+        twinkle: {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.2" },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "star-movement-horizontal": "star-movement-horizontal 100s linear infinite",
+        "star-move-slow": "star-move 150s linear infinite",
+        "star-move-medium": "star-move 100s linear infinite",
+        "star-move-fast": "star-move 50s linear infinite",
+        twinkle: "twinkle 4s ease-in-out infinite",
+        float: "float 6s ease-in-out infinite",
+        "spin-slow": "spin 20s linear infinite",
       },
     },
   },
